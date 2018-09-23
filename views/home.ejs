@@ -1,0 +1,44 @@
+<% include partials/header %>
+    <div class="ui grid">
+        <!-- For heading details -->
+        <div class="sixteen wide column" id="mainhead">
+            <p>Main header</p>
+        </div>
+
+        <!-- Content-->
+        <% include partials/sidebar %>
+
+            <div class="twelve wide column">
+                <p>Here all project details will go</p>
+
+                <div class="ui secondary pointing menu">
+                    <a class="active item">
+                        Profile
+                    </a>
+                    <a class="item">
+                        Work
+                    </a>
+                    <a class="item">
+                        Education
+                    </a>
+                    <a class="item">
+                        Software
+                        </a>
+                    <div class="right menu">
+                        <a class="ui item">
+                            Logout
+                        </a>
+                    </div>
+                </div>
+                <div class="ui segment">
+                    <p></p>
+                </div>
+
+            </div>
+
+            <!-- Bottom footer contact details-->
+            <div class="sixteen wide column" id="mainbottom">
+                <p>Here all contact details will go</p>
+            </div>
+    </div>
+    <% include partials/footer %>
